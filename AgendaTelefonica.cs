@@ -5,6 +5,9 @@ public class AgendaTelefonica{
     public String email;
     public String telefone;
 
+    public AgendaTelefonica(){
+        
+    }
     public AgendaTelefonica(String nome, String email, String tel){
         this.nome = nome;
         this.email = email;
